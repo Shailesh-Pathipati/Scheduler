@@ -1,4 +1,4 @@
-# SedCal - Seamless Calendar Coordination
+# Scheduler- Seamless Calendar Coordination
 
 ## Overview
 
