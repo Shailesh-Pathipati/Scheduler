@@ -7,8 +7,8 @@ In today's fast-paced work environment, scheduling meetings among team members c
 
 ##Live Links
 
-- **Video Presentation:**  [https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM]
-
+- **Video Presentation:**  https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM
+  
 ## Features
 
 - **Calendar Aggregation:** SedCal allows users within a common company or domain to aggregate their individual calendars on the platform.
