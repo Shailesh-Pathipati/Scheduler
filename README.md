@@ -7,7 +7,7 @@ In today's fast-paced work environment, scheduling meetings among team members c
 
 ##Live Links
 
-- **Video PresentationL:**  `https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM`
+- **Video Presentation:**  [https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM]
 
 ## Features
 
