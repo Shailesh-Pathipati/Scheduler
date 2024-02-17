@@ -1,57 +1,106 @@
-# SetCal
+# SedCal - Seamless Calendar Coordination
 
-#### Web application for Creating events and tasks on your Google calendar.
+## Overview
 
-## Live Links:-
-SetCat:- https://calendly-clone-qa7v27r77-jignesh6775.vercel.app/
-<br>
-Backend Server:- https://setcal-backend.onrender.com/
-<br>
-Video presentation:- https://drive.google.com/file/d/1qnQ7xRQT47RuInYSSuT4uSsSVzjiHUUQ/view?usp=share_link 
+In today's fast-paced work environment, scheduling meetings among team members can be a daunting task due to conflicting schedules. To streamline this process, we present SedCal, a web portal designed to aggregate individual calendars within a common company or domain. SedCal simplifies the coordination of informal meetings by identifying common available times and preventing conflicts when scheduling events.
 
-## Tech Stack
+## Features
 
- Frontend:- HTML, CSS, JavaScript.
+- **Calendar Aggregation:** SedCal allows users within a common company or domain to aggregate their individual calendars on the platform.
 
- Backend:- Node.js, Express.js, Mongoose.js, O-auth20
- 
- Database:- MongoDB
+- **Conflict-Free Scheduling:** When creating meetings or events, SedCal ensures that there are no conflicts with existing scheduled meetings, avoiding overlapping commitments.
 
-## Completed a group project within a span of five days:
-[Jignesh Vadiyatar](https://github.com/Jignesh6775) (Team Lead) (Handled the Dashboard page part)
-<br>
-[Avinash Mohan Dev](https://github.com/0AvinashMohanDev1) (Handled the Create event form page part)
-<br>
-[Gaurav Asode](https://github.com/Gaurav040399)  (Handled the Home page part)
-<br>
-[Himanshu Jain](https://github.com/Himanshuj0311)  (Handled the Signup part)
-<br>
-[Swapnil Solanki](https://github.com/Swapnil887)  (Handled the Login part)
-<br>
+- **Intuitive Interface:** The user-friendly interface makes it easy for team members to view, create, and manage meetings effortlessly.
 
-## Home Page
-<h3>This is the landing pag eof our website, so here </h3>
-<h3>you can see we have a navbar where we can see some buttons which works properly.</h3>
+## Getting Started
 
-![Screenshot 2023-05-13 102720](https://github.com/Jignesh6775/muddled-canvas-7776/assets/119413894/458298e2-3851-4476-a3f7-cec49b5e1605)
+Follow these steps to set up and run SedCal on your local machine:
 
+### Prerequisites
 
-## Sign-up Page
-<h3>This is the registering or signing page of our website, 
-from where we can create a new account with SetCal.</h3>
+- Node.js installed
+- npm (Node Package Manager) installed
+- MongoDB installed and running
 
-![Screenshot 2023-05-13 102804](https://github.com/Jignesh6775/muddled-canvas-7776/assets/119413894/191699a9-02c2-437f-8538-aa5f0dcdf964)
+### Installation
 
+1. Clone the SedCal repository to your local machine:
 
-## Login Page
-<h3>This is the login page of our website, from where we can login to our acccount, if our we have a account wit SetCal</h3>
+   ```bash
+   git clone https://github.com/your-username/SedCal.git
+   ```
 
-![Screenshot 2023-05-13 102906](https://github.com/Jignesh6775/muddled-canvas-7776/assets/119413894/dbcb9774-40aa-44b7-9883-9fa7ad9c932a)
+2. Navigate to the project directory:
 
-## Meet-form Page
-![Screenshot 2023-05-13 102951](https://github.com/Jignesh6775/muddled-canvas-7776/assets/119413894/893d0b24-adca-448a-baec-8d0dc1801812)
+   ```bash
+   cd SedCal
+   ```
 
+3. Install backend dependencies:
 
-## Dashboard Page
-![Screenshot 2023-05-13 103412](https://github.com/Jignesh6775/muddled-canvas-7776/assets/119413894/93cb9274-d69f-4bc6-a571-5a948d18d062)
+   ```bash
+   npm install
+   ```
 
+4. Navigate to the `client` directory:
+
+   ```bash
+   cd client
+   ```
+
+5. Install frontend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Configuration
+
+1. Create a `.env` file in the root directory of the backend (`SedCal`) and add the following:
+
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   ```
+
+2. Replace `your_mongodb_connection_string` with the connection string for your MongoDB database.
+
+### Running the Application
+
+1. Start the backend server:
+
+   ```bash
+   npm start
+   ```
+
+   The backend will run on `http://localhost:3001`.
+
+2. In a new terminal, navigate to the `client` directory:
+
+   ```bash
+   cd client
+   ```
+
+3. Start the frontend:
+
+   ```bash
+   npm i http-server
+   npx http server  -p 3000
+   ```
+
+   The frontend will run on `http://localhost:3000`.
+
+4. Open your browser and visit `http://localhost:3000` to access SedCal.
+
+## Usage
+
+1. Register or log in to your SedCal account.
+
+2. Connect your calendar to SedCal to enable calendar aggregation.
+
+3. Create meetings or events, and SedCal will identify common available times among team members.
+
+4. Ensure smooth scheduling without conflicts, thanks to SedCal's intelligent conflict resolution.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
