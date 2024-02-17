@@ -1,8 +1,13 @@
 # Scheduler- Seamless Calendar Coordination
 
+
 ## Overview
 
 In today's fast-paced work environment, scheduling meetings among team members can be a daunting task due to conflicting schedules. To streamline this process, we present SedCal, a web portal designed to aggregate individual calendars within a common company or domain. SedCal simplifies the coordination of informal meetings by identifying common available times and preventing conflicts when scheduling events.
+
+##Live Links
+
+- **Video PresentationL:**  `https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM`
 
 ## Features
 
@@ -27,7 +32,7 @@ Follow these steps to set up and run SedCal on your local machine:
 1. Clone the SedCal repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/SedCal.git
+   git clone https://github.com/Shailesh-Pathipati//Schedular.git
    ```
 
 2. Navigate to the project directory:
@@ -87,9 +92,8 @@ Follow these steps to set up and run SedCal on your local machine:
    npx http server  -p 3000
    ```
 
-   The frontend will run on `http://localhost:3000`.
+   The frontend will run on `http://127.0.0.1:5501/frontend`.
 
-4. Open your browser and visit `http://localhost:3000` to access SedCal.
 
 ## Usage
 
