@@ -1,0 +1,30 @@
+{
+  "name": "muddled-canvas-7776",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dashboard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jignesh6775/muddled-canvas-7776.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jignesh6775/muddled-canvas-7776/issues"
+  },
+  "homepage": "https://github.com/Jignesh6775/muddled-canvas-7776#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "momentjs": "^2.0.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
