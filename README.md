@@ -5,8 +5,8 @@
 
 In today's fast-paced work environment, scheduling meetings among team members can be a daunting task due to conflicting schedules. To streamline this process, we present SedCal, a web portal designed to aggregate individual calendars within a common company or domain. SedCal simplifies the coordination of informal meetings by identifying common available times and preventing conflicts when scheduling events.
 
-**Live Links
-**
+**Live Links**
+
 - **Video Presentation:**  https://youtu.be/_o2JWdhNok4?si=9fJ-i1SPQjtW-3yM
   
 ## Features
